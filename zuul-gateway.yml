@@ -3,7 +3,7 @@ spring:
     store-type: redis
   redis:
     port: 6379
-zuul: 
+zuul:
   retryable: true
   routes:
     order-management-ms:
@@ -12,4 +12,4 @@ zuul:
 security:
   user:
     name: gateway
-password: password
+    password: password
